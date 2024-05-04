@@ -7,6 +7,9 @@ endif
 if HAVE_LIBC_SYS_ARM_DIR
 include %D%/arm/Makefile.inc
 endif
+if HAVE_LIBC_SYS_CARGOS_DIR
+include %D%/cargos/Makefile.inc
+endif
 if HAVE_LIBC_SYS_D10V_DIR
 include %D%/d10v/Makefile.inc
 endif

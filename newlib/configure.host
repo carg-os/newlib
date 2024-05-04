@@ -544,6 +544,10 @@ case "${host}" in
   powerpcle-*-pe)
 	posix_dir=posix
 	;;
+  riscv-*-cargos)
+    sys_dir=cargos
+    newlib_cflags="${newlib_cflags} -mcmodel=medany"
+    ;;
   sh*-*)
 	sys_dir=sh
 	;;

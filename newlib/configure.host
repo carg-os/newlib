@@ -546,7 +546,6 @@ case "${host}" in
 	;;
   riscv-*-cargos)
     sys_dir=cargos
-    newlib_cflags="${newlib_cflags} -mcmodel=medany"
     ;;
   sh*-*)
 	sys_dir=sh

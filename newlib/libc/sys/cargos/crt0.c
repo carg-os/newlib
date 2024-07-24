@@ -2,4 +2,4 @@
 
 int main();
 
-void start(void) { _Exit(main()); }
+void _start() { exit(main()); }
